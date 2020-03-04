@@ -46,8 +46,8 @@ Here is what the package looks like using Packages.app
 
 1. Payload
 
-    ![](Screenshots/packages_payload.png)
+    ![](screenshots/packages_payload.png)
 
 2. Post-install script
 
-    ![](Screenshots/packages_post_install_script.png)
+    ![](screenshots/packages_post_install_script.png)
