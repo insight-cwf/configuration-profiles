@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+    <dict>
+        <key>PayloadOrganization</key>
+        <string>Avengers</string>
+        <key>PayloadType</key>
+        <string>com.apple.Safari</string>
+        <key>PayloadUUID</key>
+        <string>2be25ac7-139d-4794-9c91-37d4e1e448b4</string>
+        <key>label</key>
+        <string>com.apple.Safari</string>
+        <key>HomePage</key>
+        <string>https://duckduckgo.com</string>
+        <key>NewWindowBehavior</key>
+        <integer>0</integer>
+        <key>AXFullScreen</key>
+        <true/>
+    </dict>
+</plist>

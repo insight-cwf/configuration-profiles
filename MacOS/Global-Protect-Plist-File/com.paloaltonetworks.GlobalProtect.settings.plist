@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+    <dict>
+        <key>Palo Alto Networks</key>
+        <dict>
+            <key>GlobalProtect</key>
+            <dict>
+                <key>PanSetup</key>
+                <dict>
+                    <key>Portal</key>
+                    <string>vpn.url.goes.here</string>
+                    <key>Prelogon</key>
+                    <string>0</string>
+                </dict>
+                <key>Settings</key>
+                <dict>
+                    <key>allow-traffic-blocking-notification-dismissal</key>
+                    <string>yes</string>
+                    <key>captive-portal-detection-msg</key>
+                    <string>To access the network, you must authenticate with your Internet provider within &lt;Captive Portal Exception Timeout (sec)&gt; seconds.</string>
+                    <key>captive-portal-exception-timeout</key>
+                    <string>0</string>
+                    <key>certificate-store-lookup</key>
+                    <string>user-and-machine</string>
+                    <key>connect-timeout</key>
+                    <integer>5</integer>
+                    <key>disable-globalprotect</key>
+                    <integer>0</integer>
+                    <key>display-captive-portal-detection-msg</key>
+                    <string>no</string>
+                    <key>display-traffic-blocking-notification-msg</key>
+                    <string>yes</string>
+                    <key>enforce-globalprotect</key>
+                    <string>no</string>
+                    <key>ext-key-usage-oid-for-client-cert</key>
+                    <string></string>
+                    <key>ipv6-preferred</key>
+                    <string>yes</string>
+                    <key>krb-auth-fail-fallback</key>
+                    <string>yes</string>
+                    <key>logout-remove-sso</key>
+                    <string>no</string>
+                    <key>portal-timeout</key>
+                    <integer>30</integer>
+                    <key>receive-timeout</key>
+                    <integer>30</integer>
+                    <key>regioncode</key>
+                    <string>US</string>
+                    <key>retain-connection-smartcard-removal</key>
+                    <string>yes</string>
+                    <key>traffic-blocking-notification-delay</key>
+                    <string>15</string>
+                    <key>traffic-blocking-notification-msg</key>
+                    <string>To access the network, you must first connect to GlobalProtect.</string>
+                    <key>connect-method</key>
+                    <string>on-demand</string>
+                </dict>
+            </dict>
+        </dict>
+    </dict>
+</plist>

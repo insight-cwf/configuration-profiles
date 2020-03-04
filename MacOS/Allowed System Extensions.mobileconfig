@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>4879A7B8-4262-4DB2-83F6-66064F960883</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Conagra Brands</string>
+    <key>PayloadIdentifier</key>
+    <string>4879A7B8-4262-4DB2-83F6-66064F960883</string>
+    <key>PayloadDisplayName</key>
+    <string>Allowed System Extensions</string>
+    <key>PayloadDescription</key>
+    <string>These are the allowed system extensions formerly know as KEXT</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>00ABCD5C-6368-4980-A8C7-3DC3856D300B</string>
+        <key>PayloadType</key>
+        <string>com.apple.system-extension-policy</string>
+        <key>PayloadOrganization</key>
+        <string>Conagra Brands</string>
+        <key>PayloadIdentifier</key>
+        <string>00ABCD5C-6368-4980-A8C7-3DC3856D300B</string>
+        <key>PayloadDisplayName</key>
+        <string>System Extensions</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>AllowUserOverrides</key>
+        <false/>
+        <key>AllowedSystemExtensions</key>
+        <dict>
+          <key>PXPZ95SK77</key>
+          <array>
+            <string>com.paloaltonetworks.GlobalProtect.gplock</string>
+            <string>com.paloaltonetworks.GlobalProtect.gpsplit</string>
+            <string>com.paloaltonetworks.kext.pangpd</string>
+            <string>com.paloaltonetworks.driver.kproc-ctrl</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

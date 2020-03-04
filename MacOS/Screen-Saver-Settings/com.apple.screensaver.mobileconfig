@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Screensaver</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.screensaver</string>
+			<key>PayloadType</key>
+			<string>com.apple.screensaver</string>
+			<key>PayloadUUID</key>
+			<string>14466313-5DDA-4408-B895-7272E8F41EE5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>askForPassword</key>
+			<true/>
+			<key>idleTime</key>
+			<integer>300</integer>
+			<key>askForPasswordDelay</key>
+			<integer>0</integer>
+			<key>loginWindowModulePath</key>
+			<string>/path/to/screensaver/module</string>
+			<key>moduleName</key>
+			<string>iLifeSlideShows</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Set managed screensaver settings.</string>
+	<key>PayloadDisplayName</key>
+	<string>com.apple.screensaver</string>
+	<key>PayloadIdentifier</key>
+	<string>Avengers.32450C14-6357-49A6-8300-68FAB45CA6D8</string>
+	<key>PayloadOrganization</key>
+	<string>Avengers</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>AF6C5084-A58F-4712-AB19-137DBD637E76</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

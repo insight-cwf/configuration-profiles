@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadOrganization</key>
+	<string>Avengers</string>
+	<key>PayloadType</key>
+	<string>com.apple.screensaver</string>
+	<key>PayloadUUID</key>
+	<string>4ac5f8fc-9066-4e81-a863-e273af0bdbac</string>
+	<key>label</key>
+	<string>com.apple.screensaver</string>
+	<key>idleTime</key>
+	<integer>300</integer>
+</dict>
+</plist>
