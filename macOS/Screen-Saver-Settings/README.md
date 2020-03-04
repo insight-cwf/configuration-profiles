@@ -5,6 +5,22 @@
 - Deploy `com.apple.sceensaver.mobileconfig` from JamfPro or any other MDM that supports uploading custom profile plists.
 - Copy and paste `com.apple.screensaver-WSO.plist` into the "Custom Settings" profile payload in WorkspaceONE.
 
+    **NOTE**: Make sure that the `PayloadUUID` does not match other existing profiles.
+
+    ```xml
+    <dict>
+        <key>PayloadOrganization</key>
+        <string>Avengers</string>
+        <key>PayloadType</key>
+        <string>com.apple.screensaver</string>
+        <key>PayloadUUID</key>
+        <string>4ac5f8fc-9066-4e81-a863-e273af0bdbac</string>
+        <key>label</key>
+        <string>com.apple.screensaver</string>
+        <key>idleTime</key>
+        <integer>300</integer>
+    </dict>
+    ```
 
 ## Manual Screensaver settings
 
