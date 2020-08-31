@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+					<dict>
+						<key>AlertType</key>
+						<integer>2</integer>
+						<key>BadgesEnabled</key>
+						<true/>
+						<key>BundleIdentifier</key>
+						<string>com.microsoft.autoupdate.fba</string>
+						<key>CriticalAlertEnabled</key>
+						<true/>
+						<key>NotificationsEnabled</key>
+						<true/>
+						<key>ShowInLockScreen</key>
+						<true/>
+						<key>ShowInNotificationCenter</key>
+						<true/>
+						<key>SoundsEnabled</key>
+						<true/>
+					</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Managed Notifications for MSFT Update Assistant</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications - MSFT Update Assistant</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>16006A6C-DE8D-4DE9-BF95-7144EF928A73</string>
+			<key>PayloadOrganization</key>
+			<string>Talking Moose Industries</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>16006A6C-DE8D-4DE9-BF95-7144EF928A73</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Managed Notifications</string>
+	<key>PayloadDisplayName</key>
+	<string>Notifications - MSFT Update Assistant</string>
+    <key>PayloadEnabled</key>
+    <true/>
+	<key>PayloadIdentifier</key>
+	<string>59750B93-AAD3-45A2-9E52-445DE9BE65B8</string>
+	<key>PayloadOrganization</key>
+	<string>Insight</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>59750B93-AAD3-45A2-9E52-445DE9BE65B8</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

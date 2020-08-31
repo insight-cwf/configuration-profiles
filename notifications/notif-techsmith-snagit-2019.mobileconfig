@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+					<dict>
+						<key>AlertType</key>
+						<integer>1</integer>
+						<key>BadgesEnabled</key>
+						<true/>
+						<key>BundleIdentifier</key>
+						<string>com.TechSmith.Snagit2019</string>
+						<key>CriticalAlertEnabled</key>
+						<false/>
+						<key>NotificationsEnabled</key>
+						<true/>
+						<key>ShowInLockScreen</key>
+						<true/>
+						<key>ShowInNotificationCenter</key>
+						<true/>
+						<key>SoundsEnabled</key>
+						<true/>
+					</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>NOTIF - TechSmith Snagit 2019</string>
+			<key>PayloadDisplayName</key>
+			<string>NOTIF - TechSmith Snagit 2019</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>C3879BE2-28E6-4242-B847-1ABFEA7E9110</string>
+			<key>PayloadOrganization</key>
+			<string>Talking Moose Industries</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>C3879BE2-28E6-4242-B847-1ABFEA7E9110</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>NOTIF - TechSmith Snagit 2019</string>
+	<key>PayloadDisplayName</key>
+	<string>NOTIF - TechSmith Snagit 2019</string>
+    <key>PayloadEnabled</key>
+    <true/>
+	<key>PayloadIdentifier</key>
+	<string>AD7D8316-25F7-4969-8FF1-EEEBD7B8BB37</string>
+	<key>PayloadOrganization</key>
+	<string>Talking Moose Industries</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>AD7D8316-25F7-4969-8FF1-EEEBD7B8BB37</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

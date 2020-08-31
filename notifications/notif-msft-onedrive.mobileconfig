@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+					<dict>
+						<key>AlertType</key>
+						<integer>1</integer>
+						<key>BadgesEnabled</key>
+						<true/>
+						<key>BundleIdentifier</key>
+						<string>com.microsoft.OneDrive</string>
+						<key>CriticalAlertEnabled</key>
+						<false/>
+						<key>NotificationsEnabled</key>
+						<true/>
+						<key>ShowInLockScreen</key>
+						<true/>
+						<key>ShowInNotificationCenter</key>
+						<true/>
+						<key>SoundsEnabled</key>
+						<true/>
+					</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Managed Notifications for Microsoft OneDrive</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications - Microsoft OneDrive</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>D8882515-D394-4E52-A16B-CA1021C61770</string>
+			<key>PayloadOrganization</key>
+			<string>Talking Moose Industries</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>D8882515-D394-4E52-A16B-CA1021C61770</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Managed Notifications for Microsoft OneDrive</string>
+	<key>PayloadDisplayName</key>
+	<string>Notifications - Microsoft OneDrive</string>
+    <key>PayloadEnabled</key>
+    <true/>
+	<key>PayloadIdentifier</key>
+	<string>1AE1D629-E4A9-4EF3-8204-6B5B47C5ADB3</string>
+	<key>PayloadOrganization</key>
+	<string>Insight</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1AE1D629-E4A9-4EF3-8204-6B5B47C5ADB3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+					<dict>
+						<key>AlertType</key>
+						<integer>1</integer>
+						<key>BadgesEnabled</key>
+						<true/>
+						<key>BundleIdentifier</key>
+						<string>org.mozilla.firefox</string>
+						<key>CriticalAlertEnabled</key>
+						<false/>
+						<key>NotificationsEnabled</key>
+						<true/>
+						<key>ShowInLockScreen</key>
+						<true/>
+						<key>ShowInNotificationCenter</key>
+						<true/>
+						<key>SoundsEnabled</key>
+						<false/>
+					</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Notifications - Mozilla Firefox</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications - Mozilla Firefox</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>A2603EE9-FA47-475B-932F-E23F31B2D97F</string>
+			<key>PayloadOrganization</key>
+			<string>Talking Moose Industries</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>A2603EE9-FA47-475B-932F-E23F31B2D97F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Notifications - Mozilla Firefox</string>
+	<key>PayloadDisplayName</key>
+	<string>Notifications - Mozilla Firefox</string>
+    <key>PayloadEnabled</key>
+    <true/>
+	<key>PayloadIdentifier</key>
+	<string>403D48DD-A767-43D5-9E20-B5BC9287AB8C</string>
+	<key>PayloadOrganization</key>
+	<string>Talking Moose Industries</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>403D48DD-A767-43D5-9E20-B5BC9287AB8C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
