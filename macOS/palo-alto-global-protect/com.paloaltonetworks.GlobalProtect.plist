@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Palo Alto Networks</key>
+    <dict>
+        <key>GlobalProtect</key>
+        <dict>
+            <key>Settings</key>
+            <dict>
+                <key>connect-method</key>
+                <string>pre-logon</string>
+                <key>prelogon</key>
+                <integer>1</integer>
+            </dict>
+        </dict>
+    </dict>
+    <key>PanPortalList</key>
+    <array>
+        <string>cagpc7_gp.conagrafoods.com</string>
+    </array>
+</dict>
+</plist>

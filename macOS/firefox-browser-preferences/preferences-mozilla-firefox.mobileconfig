@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>org.mozilla.firefox</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AppAutoUpdate</key>
+								<true/>
+								<key>DisableAppUpdate</key>
+								<false/>
+								<key>DisablePasswordReveal</key>
+								<true/>
+								<key>ImportEnterpriseRoots</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.e806ebb7-58eb-4f73-83e6-b0313692c723.alacarte.customsettings.ee30f8f0-1fc3-4c76-872c-d7da47c8b053</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>ee30f8f0-1fc3-4c76-872c-d7da47c8b053</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+org.mozilla.firefox
+</string>
+	<key>PayloadDisplayName</key>
+	<string>MCXToProfile: org.mozilla.firefox</string>
+	<key>PayloadIdentifier</key>
+	<string>preferences-mozilla-firefox</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>e806ebb7-58eb-4f73-83e6-b0313692c723</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

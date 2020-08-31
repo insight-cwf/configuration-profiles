@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowCacheDelete</key>
+			<true/>
+			<key>AllowPersonalCaching</key>
+			<false/>
+			<key>AllowSharedCaching</key>
+			<true/>
+			<key>AutoActivation</key>
+			<true/>
+			<key>AutoEnableTetheredCaching</key>
+			<true/>
+			<key>CacheLimit</key>
+			<integer>50000</integer>
+			<key>DenyTetheredCaching</key>
+			<false/>
+			<key>DisplayAlerts</key>
+			<false/>
+			<key>KeepAwake</key>
+			<false/>
+			<key>ListenRangesOnly</key>
+			<false/>
+			<key>LocalSubnetsOnly</key>
+			<true/>
+			<key>LogClientIdentity</key>
+			<false/>
+			<key>ParentSelectionPolicy</key>
+			<string>round-robin</string>
+			<key>PayloadDisplayName</key>
+			<string>Content Caching</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.CP-mbp.145cb3b0-92d6-0138-588e-2cde48001122.alacarte.content-caching.34473df0-92d6-0138-588f-2cde48001122</string>
+			<key>PayloadType</key>
+			<string>com.apple.AssetCache.managed</string>
+			<key>PayloadUUID</key>
+			<string>34473df0-92d6-0138-588f-2cde48001122</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PeerLocalSubnetsOnly</key>
+			<true/>
+			<key>Port</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Settings - Content Caching Configuration</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.mdm.CP-mbp.145cb3b0-92d6-0138-588e-2cde48001122.alacarte</string>
+	<key>PayloadOrganization</key>
+	<string>com.github.captam3rica</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>145cb3b0-92d6-0138-588e-2cde48001122</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

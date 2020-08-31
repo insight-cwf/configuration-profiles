@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Desktop Wallpaper Settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Desktop Wallpaper Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.desktop</string>
+			<key>PayloadOrganization</key>
+			<string>github.captam3rica</string>
+			<key>PayloadType</key>
+			<string>com.apple.desktop</string>
+			<key>PayloadUUID</key>
+			<string>A839EEFC-5C05-4DE4-BF44-98464D894156</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>locked</key>
+			<true/>
+			<key>override-picture-path</key>
+			<string>/Users/Shared/Desktop Pictures/tcu_background.jpg</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Example: Desktop Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Example: Desktop Picture Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>github.captam3ricadesktop.example</string>
+	<key>PayloadOrganization</key>
+	<string>github.captam3rica</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>78470944-2CF7-4053-96E6-9A1B01FC0CF3</string>
+</dict>
+</plist>

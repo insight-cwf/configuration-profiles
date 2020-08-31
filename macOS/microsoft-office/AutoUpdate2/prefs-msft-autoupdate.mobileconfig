@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.microsoft.autoupdate2</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AcknowledgedDataCollectionPolicy</key>
+								<string>RequiredDataOnly</string>
+								<key>EnableCheckForUpdatesButton</key>
+								<true/>
+								<key>HowToCheck</key>
+								<string>AutomaticDownload</string>
+								<key>SendAllTelemetryEnabled</key>
+								<false/>
+								<key>ShowOptInNotification</key>
+								<false/>
+								<key>StartDaemonOnAppLaunch</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.8a717828-dedd-4a95-9b62-dc05f59ea934.alacarte.customsettings.577504a9-8d0f-4dd9-981f-2b63a2032d3d</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>577504a9-8d0f-4dd9-981f-2b63a2032d3d</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.microsoft.autoupdate2
+</string>
+	<key>PayloadDisplayName</key>
+	<string>Prefs - MSFT Autoupdate</string>
+	<key>PayloadIdentifier</key>
+	<string>Prefs - MSFT Autoupdate</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>8a717828-dedd-4a95-9b62-dc05f59ea934</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
