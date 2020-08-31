@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>To enable the app for accessibility</string>
+			<key>PayloadDisplayName</key>
+			<string>pppc-connect-wise-control-client</string>
+			<key>PayloadIdentifier</key>
+			<string>6B3E2DF8-DB6D-489E-8FA6-CF20E85A49E8</string>
+			<key>PayloadOrganization</key>
+			<string>WFS</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>5045D366-EE8F-423B-A6E1-0A64BE0129B8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.screenconnect.client" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = X5ZCVVHK4S</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.screenconnect.client</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>To enable the app for accessibility</string>
+	<key>PayloadDisplayName</key>
+	<string>pppc-connect-wise-control-client</string>
+	<key>PayloadIdentifier</key>
+	<string>6B3E2DF8-DB6D-489E-8FA6-CF20E85A49E8</string>
+	<key>PayloadOrganization</key>
+	<string>WFS</string>
+	<key>PayloadType</key>
+	<string>com.apple.TCC.configuration-profile-policy</string>
+	<key>PayloadUUID</key>
+	<string>6E9C4D07-33D2-4B9F-B748-0AE0D6D3DAE9</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>payloadScope</key>
+	<string>system</string>
+</dict>
+</plist>

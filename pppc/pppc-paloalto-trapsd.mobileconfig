@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>PPPC - Palo Alto trapsd</string>
+			<key>PayloadDisplayName</key>
+			<string>PPPC - Palo Alto trapsd</string>
+			<key>PayloadIdentifier</key>
+			<string>04D13528-6F06-4FFD-8D9E-6C8C8FF7DA5B</string>
+			<key>PayloadOrganization</key>
+			<string>github.captam3rica</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>F38F5A13-E057-45BF-A350-33065F96DB7C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier trapsd and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = PXPZ95SK77</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Library/Application Support/PaloAltoNetworks/Traps/bin/trapsd</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>PPPC - Palo Alto trapsd</string>
+	<key>PayloadDisplayName</key>
+	<string>PPPC - Palo Alto trapsd</string>
+	<key>PayloadIdentifier</key>
+	<string>04D13528-6F06-4FFD-8D9E-6C8C8FF7DA5B</string>
+	<key>PayloadOrganization</key>
+	<string>github.captam3rica</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>CECA0533-3E93-4724-B43E-76076B7F5454</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>PPPC - VMware Horizon Client</string>
+			<key>PayloadDisplayName</key>
+			<string>PPPC - VMware Horizon Client</string>
+			<key>PayloadIdentifier</key>
+			<string>54CE96C7-F071-4AA0-B4EA-44EF56CC9C3D</string>
+			<key>PayloadOrganization</key>
+			<string>github.captam3rica</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>BF25634A-A0A4-41A9-AFD6-A9E3E4842801</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.vmware.horizon" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG7KH642X6</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.vmware.horizon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.vmware.horizon" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG7KH642X6</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.vmware.horizon</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>PPPC - VMware Horizon Client</string>
+	<key>PayloadDisplayName</key>
+	<string>PPPC - VMware Horizon Client</string>
+	<key>PayloadIdentifier</key>
+	<string>54CE96C7-F071-4AA0-B4EA-44EF56CC9C3D</string>
+	<key>PayloadOrganization</key>
+	<string>github.captam3rica</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6755CC8E-ABC5-4C24-A0F0-973C060EB702</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

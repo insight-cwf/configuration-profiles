@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>PPPC settings for Palo Alto GlobalProtect VPN</string>
+			<key>PayloadDisplayName</key>
+			<string>pppc-palo-alto-global-protect</string>
+			<key>PayloadIdentifier</key>
+			<string>F633BFCD-2836-4B17-A36A-B96D0E06C2E3</string>
+			<key>PayloadOrganization</key>
+			<string>myorg</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>9F633976-C322-431E-9025-18F68A23E4F5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.paloaltonetworks.GlobalProtect.client" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = PXPZ95SK77</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.paloaltonetworks.GlobalProtect.client</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.paloaltonetworks.GlobalProtect.client" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = PXPZ95SK77</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.paloaltonetworks.GlobalProtect.client</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.paloaltonetworks.GlobalProtect.client" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = PXPZ95SK77</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.paloaltonetworks.GlobalProtect.client</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>PPPC settings for Palo Alto GlobalProtect VPN</string>
+	<key>PayloadDisplayName</key>
+	<string>PPPC - Palo Alto GlobalProtect</string>
+	<key>PayloadIdentifier</key>
+	<string>F633BFCD-2836-4B17-A36A-B96D0E06C2E3</string>
+	<key>PayloadOrganization</key>
+	<string>myorg</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>60F0A473-68D7-446A-B89A-EE7F69EC07D9</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

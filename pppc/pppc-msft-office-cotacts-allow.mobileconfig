@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>office-pppc-cotacts-allow</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2019-02-19T02:10:34Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>PayloadContent</key>
+								<array>
+									<dict>
+										<key>PayloadDescription</key>
+										<string>Allow Office apps to open the System Address Book</string>
+										<key>PayloadDisplayName</key>
+										<string>Contacts Allow</string>
+										<key>PayloadIdentifier</key>
+										<string>E11B1940-B529-4CFF-AB0C-9092185629C2</string>
+										<key>PayloadOrganization</key>
+										<string>com.microsoft.office</string>
+										<key>PayloadType</key>
+										<string>com.apple.TCC.configuration-profile-policy</string>
+										<key>PayloadUUID</key>
+										<string>22848882-36CC-4596-AF43-CD3F263B1733</string>
+										<key>PayloadVersion</key>
+										<integer>1</integer>
+										<key>Services</key>
+										<dict>
+											<key>AddressBook</key>
+											<array>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Excel"</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.Excel</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.onenote.mac"</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.onenote.mac</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Powerpoint"</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.Powerpoint</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Word"</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.Word</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>identifier "com.microsoft.Word" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.Word</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>identifier "com.microsoft.Excel" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.Excel</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>identifier "com.microsoft.Powerpoint" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.Powerpoint</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+												<dict>
+													<key>Allowed</key>
+													<true/>
+													<key>CodeRequirement</key>
+													<string>identifier "com.microsoft.onenote.mac" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+													<key>Comment</key>
+													<string></string>
+													<key>Identifier</key>
+													<string>com.microsoft.onenote.mac</string>
+													<key>IdentifierType</key>
+													<string>bundleID</string>
+												</dict>
+											</array>
+										</dict>
+									</dict>
+								</array>
+								<key>PayloadDescription</key>
+								<string>Allow Office apps to open the System Address Book</string>
+								<key>PayloadDisplayName</key>
+								<string>Contacts Allow</string>
+								<key>PayloadIdentifier</key>
+								<string>E11B1940-B529-4CFF-AB0C-9092185629C2</string>
+								<key>PayloadOrganization</key>
+								<string>com.microsoft.office</string>
+								<key>PayloadType</key>
+								<string>com.apple.TCC.configuration-profile-policy</string>
+								<key>PayloadUUID</key>
+								<string>F43ADF5F-0EDB-4729-A62B-9B6FCC158FC8</string>
+								<key>PayloadVersion</key>
+								<integer>1</integer>
+								<key>payloadScope</key>
+								<string>system</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.d4c5af4c-dbb0-47ab-9ba6-02a5156cb570.alacarte.customsettings.aeb81b4c-b8e1-4504-919d-95d7b22ce328</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>aeb81b4c-b8e1-4504-919d-95d7b22ce328</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+office-pppc-cotacts-allow
+
+Git revision: a0e04c60fc</string>
+	<key>PayloadDisplayName</key>
+	<string>MCXToProfile: office-pppc-cotacts-allow</string>
+	<key>PayloadIdentifier</key>
+	<string>office-pppc-cotacts-allow</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>d4c5af4c-dbb0-47ab-9ba6-02a5156cb570</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
